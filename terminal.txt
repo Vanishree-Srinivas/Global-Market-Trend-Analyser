@@ -1,0 +1,14 @@
+PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> python --version
+>>
+Python 3.13.0
+PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> cd "C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer"
+>>
+PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> python -m venv global_market_env
+>>
+PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> global_market_env\Scripts\activate
+>> 
+(global_market_env) PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> pip install streamlit pandas matplotlib seaborn requests pytest
+>> 
+(global_market_env) PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> pip install plotly
+>>
+PS C:\Users\Vanishree S\OneDrive\Desktop\GlobalMarketTrendsAnalyzer> streamlit run app.py
